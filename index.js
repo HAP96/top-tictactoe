@@ -76,7 +76,7 @@ const gameBoard = (() => {
   function endGame(draw) {
     const text = document.getElementById('text');
     if (draw) {
-      text.innerText = 'draw';
+      text.innerText = 'Draw!';
     } else {
       text.innerText = `${player2.turn ? "O's" : "X's"} Win!`;
     }
